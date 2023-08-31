@@ -1,0 +1,22 @@
+{
+  "name": "app-futbol",
+  "version": "1.0.0",
+  "description": "Futbol 7",
+  "main": "app.jsx",
+  "scripts": {
+    "start":"react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-draggable": "^3.3.0",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "author": "Er Galle",
+  "license": "ISC"
+}
