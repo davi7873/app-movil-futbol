@@ -2,9 +2,10 @@
   "name": "app-futbol",
   "version": "1.0.0",
   "description": "Futbol 7",
-  "main": "app.jsx",
+  "main": "src/app.jsx",
   "scripts": {
     "start":"react-scripts start",
+    "build":"react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
   "devDependencies": {
     "react-scripts": "1.0.7"
   },
+  "includes": ["src/**"],
   "author": "Er Galle",
   "license": "ISC"
 }
